@@ -27,8 +27,8 @@ def histogram ():
     plt.show()
 
 def corr():
-    cor = trainG.corr()
-    sns.heatmap(corr,cmap="YlGnBu",annot=True,
+    corrr = trainG.corr()
+    sns.heatmap(corrr,cmap="YlGnBu",annot=True,
                 xticklabels=cor.columns,
                 yticklabels=cor.columns)
 
